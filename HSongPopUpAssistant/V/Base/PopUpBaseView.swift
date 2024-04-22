@@ -8,7 +8,7 @@
 import UIKit
 
 ///PopUpBaseView
-class PopUpBaseView: UIView {
+public class PopUpBaseView: UIView {
     
     //MARK: - 声明区
     //-----UI-----

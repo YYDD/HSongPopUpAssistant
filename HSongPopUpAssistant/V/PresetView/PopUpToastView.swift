@@ -14,8 +14,9 @@ class PopUpToastView: PopUpBaseView {
     var bgView = UIView()
     var mainIcon = UIImageView()
 //    var mainSvgIcon: UIImageView!
-    var mainSvgIcon = UIImageView()
+//    var mainSvgIcon = UIImageView()
 //    var mainSvgIcon: SVGKFastImageView!
+    var mainSvgIcon = GIFImageView()
     var titLab = UILabel()
         .size14
         .weightMedium
@@ -33,49 +34,18 @@ class PopUpToastView: PopUpBaseView {
     let icon_size = UIConfigure.SizeScale * 40
     //MARK: - 逻辑区
     func setUI(withConfigure configureModel: PopUpConfigure) {
+
+        self.mainSvgIcon.animate(withGIFNamed: "app_success")
         
-//        let svgCodeData = """
-// <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><style>@keyframes blink-1{0%,50%,to{opacity:1}25%{opacity:0}}</style><rect width="16" height="16" x="4" y="4" stroke="#0A0A30" stroke-width="1.5" rx="2.075"/><path fill="#265BFF" d="M10.242 9.18a.75.75 0 00-1.061 1.062l1.79 1.79-1.79 1.79a.75.75 0 001.06 1.06l1.79-1.79 1.79 1.79a.75.75 0 001.062-1.06l-1.79-1.79 1.79-1.79a.75.75 0 10-1.061-1.061l-1.79 1.79-1.79-1.79z" style="animation:blink-1 2s steps(1,end) infinite both"/></svg>
-//""".data(using: .utf8)
-//        if let svgImg = SVGKImage(data: svgCodeData) {
-//            self.mainSvgIcon = SVGKFastImageView(svgkImage: svgImg)
-//        }
-//        var mySvgImg = SVGKFastImageView()
-//        mySvgImg.image = svgImg
-        
-//        let img = UIImage.gif(name: "1111222")
-//        
-//        self.mainSvgIcon = UIImageView(gifImage: img ?? UIImage(), loopCount: 1)
-        let imageManaer = SwiftyGifManager(memoryLimit: 100)
-        self.mainSvgIcon.clear()
         switch configureModel.toastType {
         case .success:
-            do {
-                let img = try UIImage(imageName: "app_success") ?? UIImage()
-//                self.mainSvgIcon = UIImageView(gifImage: img, manager: SwiftyGifManager(memoryLimit: 100), loopCount: 1)
-                self.mainSvgIcon.setImage(img, manager: imageManaer, loopCount: -1)
-                self.mainSvgIcon.contentMode = .scaleAspectFill
-            } catch {
-                print(error)
-            }
+            self.mainSvgIcon.animate(withGIFNamed: "app_success")
         case .fail:
-            do {
-                let img = try UIImage(gifName: "app_fail")
-                self.mainSvgIcon = UIImageView(gifImage: img, loopCount: 1)
-                
-            } catch {
-                print(error)
-            }
+            self.mainSvgIcon.animate(withGIFNamed: "app_fail")
         case .warn:
-            do {
-                let img = try UIImage(gifName: "app_warn")
-                self.mainSvgIcon = UIImageView(gifImage: img, loopCount: 1)
-                
-            } catch {
-                print(error)
-            }
+            self.mainSvgIcon.animate(withGIFNamed: "app_warn")
         case .custom:
-            self.mainSvgIcon = UIImageView(image: BaseImage(named: configureModel.mainIconName)?.image)
+            self.mainSvgIcon.animate(withGIFNamed: "configureModel.mainIconName")
         }
         
 //        self.mainSvgIcon

@@ -8,51 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		9B3A39B42BD63BFD00043A7F /* HSongPopUpAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B3A39D42BD63CA300043A7F /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39BA2BD63CA300043A7F /* PopUp.swift */; };
-		9B3A39D52BD63CA300043A7F /* PopUpAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39BB2BD63CA300043A7F /* PopUpAssistant.swift */; };
-		9B3A39D62BD63CA300043A7F /* PopUpConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39BC2BD63CA300043A7F /* PopUpConfigure.swift */; };
-		9B3A39D72BD63CA300043A7F /* PopUpUIConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39BD2BD63CA300043A7F /* PopUpUIConfigure.swift */; };
-		9B3A39D82BD63CA300043A7F /* 1111222.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39BF2BD63CA300043A7F /* 1111222.gif */; };
-		9B3A39D92BD63CA300043A7F /* 12198806.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39C02BD63CA300043A7F /* 12198806.gif */; };
-		9B3A39DA2BD63CA300043A7F /* app_fail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39C12BD63CA300043A7F /* app_fail.gif */; };
-		9B3A39DB2BD63CA300043A7F /* app_success.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39C22BD63CA300043A7F /* app_success.gif */; };
-		9B3A39DC2BD63CA300043A7F /* app_warn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39C32BD63CA300043A7F /* app_warn.gif */; };
-		9B3A39DD2BD63CA300043A7F /* system-solid-31-check (5).gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39C42BD63CA300043A7F /* system-solid-31-check (5).gif */; };
-		9B3A39DE2BD63CA300043A7F /* system-solid-31-check.apng in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39C52BD63CA300043A7F /* system-solid-31-check.apng */; };
-		9B3A39DF2BD63CA300043A7F /* PopUpCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39C72BD63CA300043A7F /* PopUpCommon.swift */; };
-		9B3A39E02BD63CA300043A7F /* Simplinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39C82BD63CA300043A7F /* Simplinit.swift */; };
-		9B3A39E12BD63CA300043A7F /* PopUpBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39CA2BD63CA300043A7F /* PopUpBaseView.swift */; };
-		9B3A39E22BD63CA300043A7F /* PopUpCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39CB2BD63CA300043A7F /* PopUpCustomView.swift */; };
-		9B3A39E32BD63CA300043A7F /* PopUpNoticeCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39CC2BD63CA300043A7F /* PopUpNoticeCustomView.swift */; };
-		9B3A39E42BD63CA300043A7F /* CountdownAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39CE2BD63CA300043A7F /* CountdownAlertView.swift */; };
-		9B3A39E52BD63CA300043A7F /* PopUpToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39CF2BD63CA300043A7F /* PopUpToastView.swift */; };
-		9B3A39E62BD63CA300043A7F /* PopUpTwoBtnAndAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39D02BD63CA300043A7F /* PopUpTwoBtnAndAgreementView.swift */; };
-		9B3A39E72BD63CA300043A7F /* PopUpTwoBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39D12BD63CA300043A7F /* PopUpTwoBtnView.swift */; };
+		9B3A3A1F2BD65ECF00043A7F /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A082BD65ECE00043A7F /* PopUp.swift */; };
+		9B3A3A202BD65ECF00043A7F /* PopUpAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */; };
+		9B3A3A212BD65ECF00043A7F /* PopUpConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */; };
+		9B3A3A222BD65ECF00043A7F /* PopUpUIConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0B2BD65ECE00043A7F /* PopUpUIConfigure.swift */; };
+		9B3A3A232BD65ECF00043A7F /* PopUpBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0D2BD65ECE00043A7F /* PopUpBaseView.swift */; };
+		9B3A3A242BD65ECF00043A7F /* PopUpCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0E2BD65ECE00043A7F /* PopUpCustomView.swift */; };
+		9B3A3A252BD65ECF00043A7F /* PopUpNoticeCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0F2BD65ECE00043A7F /* PopUpNoticeCustomView.swift */; };
+		9B3A3A262BD65ECF00043A7F /* CountdownAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A112BD65ECE00043A7F /* CountdownAlertView.swift */; };
+		9B3A3A272BD65ECF00043A7F /* PopUpToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A122BD65ECE00043A7F /* PopUpToastView.swift */; };
+		9B3A3A282BD65ECF00043A7F /* PopUpTwoBtnAndAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A132BD65ECE00043A7F /* PopUpTwoBtnAndAgreementView.swift */; };
+		9B3A3A292BD65ECF00043A7F /* PopUpTwoBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A142BD65ECE00043A7F /* PopUpTwoBtnView.swift */; };
+		9B3A3A2A2BD65ECF00043A7F /* PopUpCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */; };
+		9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A182BD65ECF00043A7F /* Simplinit.swift */; };
+		9B3A3A2C2BD65ECF00043A7F /* 1111222.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1A2BD65ECF00043A7F /* 1111222.gif */; };
+		9B3A3A2D2BD65ECF00043A7F /* app_fail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1B2BD65ECF00043A7F /* app_fail.gif */; };
+		9B3A3A2E2BD65ECF00043A7F /* app_success.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1C2BD65ECF00043A7F /* app_success.gif */; };
+		9B3A3A2F2BD65ECF00043A7F /* app_warn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1D2BD65ECF00043A7F /* app_warn.gif */; };
+		EC37CF26AADC748424F47BFC /* Pods_HSongPopUpAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A0C7B013281F83FB30FA2C9 /* Pods-HSongPopUpAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.release.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		9B3A39B02BD63BFD00043A7F /* HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSongPopUpAssistant.h; sourceTree = "<group>"; };
-		9B3A39BA2BD63CA300043A7F /* PopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
-		9B3A39BB2BD63CA300043A7F /* PopUpAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpAssistant.swift; sourceTree = "<group>"; };
-		9B3A39BC2BD63CA300043A7F /* PopUpConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpConfigure.swift; sourceTree = "<group>"; };
-		9B3A39BD2BD63CA300043A7F /* PopUpUIConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpUIConfigure.swift; sourceTree = "<group>"; };
-		9B3A39BF2BD63CA300043A7F /* 1111222.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1111222.gif; sourceTree = "<group>"; };
-		9B3A39C02BD63CA300043A7F /* 12198806.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12198806.gif; sourceTree = "<group>"; };
-		9B3A39C12BD63CA300043A7F /* app_fail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_fail.gif; sourceTree = "<group>"; };
-		9B3A39C22BD63CA300043A7F /* app_success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_success.gif; sourceTree = "<group>"; };
-		9B3A39C32BD63CA300043A7F /* app_warn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_warn.gif; sourceTree = "<group>"; };
-		9B3A39C42BD63CA300043A7F /* system-solid-31-check (5).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "system-solid-31-check (5).gif"; sourceTree = "<group>"; };
-		9B3A39C52BD63CA300043A7F /* system-solid-31-check.apng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "system-solid-31-check.apng"; sourceTree = "<group>"; };
-		9B3A39C72BD63CA300043A7F /* PopUpCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCommon.swift; sourceTree = "<group>"; };
-		9B3A39C82BD63CA300043A7F /* Simplinit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplinit.swift; sourceTree = "<group>"; };
-		9B3A39CA2BD63CA300043A7F /* PopUpBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpBaseView.swift; sourceTree = "<group>"; };
-		9B3A39CB2BD63CA300043A7F /* PopUpCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCustomView.swift; sourceTree = "<group>"; };
-		9B3A39CC2BD63CA300043A7F /* PopUpNoticeCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpNoticeCustomView.swift; sourceTree = "<group>"; };
-		9B3A39CE2BD63CA300043A7F /* CountdownAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownAlertView.swift; sourceTree = "<group>"; };
-		9B3A39CF2BD63CA300043A7F /* PopUpToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpToastView.swift; sourceTree = "<group>"; };
-		9B3A39D02BD63CA300043A7F /* PopUpTwoBtnAndAgreementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTwoBtnAndAgreementView.swift; sourceTree = "<group>"; };
-		9B3A39D12BD63CA300043A7F /* PopUpTwoBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTwoBtnView.swift; sourceTree = "<group>"; };
+		9B3A3A082BD65ECE00043A7F /* PopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpAssistant.swift; sourceTree = "<group>"; };
+		9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpConfigure.swift; sourceTree = "<group>"; };
+		9B3A3A0B2BD65ECE00043A7F /* PopUpUIConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpUIConfigure.swift; sourceTree = "<group>"; };
+		9B3A3A0D2BD65ECE00043A7F /* PopUpBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpBaseView.swift; sourceTree = "<group>"; };
+		9B3A3A0E2BD65ECE00043A7F /* PopUpCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCustomView.swift; sourceTree = "<group>"; };
+		9B3A3A0F2BD65ECE00043A7F /* PopUpNoticeCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpNoticeCustomView.swift; sourceTree = "<group>"; };
+		9B3A3A112BD65ECE00043A7F /* CountdownAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownAlertView.swift; sourceTree = "<group>"; };
+		9B3A3A122BD65ECE00043A7F /* PopUpToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpToastView.swift; sourceTree = "<group>"; };
+		9B3A3A132BD65ECE00043A7F /* PopUpTwoBtnAndAgreementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTwoBtnAndAgreementView.swift; sourceTree = "<group>"; };
+		9B3A3A142BD65ECE00043A7F /* PopUpTwoBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTwoBtnView.swift; sourceTree = "<group>"; };
+		9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCommon.swift; sourceTree = "<group>"; };
+		9B3A3A182BD65ECF00043A7F /* Simplinit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplinit.swift; sourceTree = "<group>"; };
+		9B3A3A1A2BD65ECF00043A7F /* 1111222.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1111222.gif; sourceTree = "<group>"; };
+		9B3A3A1B2BD65ECF00043A7F /* app_fail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_fail.gif; sourceTree = "<group>"; };
+		9B3A3A1C2BD65ECF00043A7F /* app_success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_success.gif; sourceTree = "<group>"; };
+		9B3A3A1D2BD65ECF00043A7F /* app_warn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_warn.gif; sourceTree = "<group>"; };
+		FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +58,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC37CF26AADC748424F47BFC /* Pods_HSongPopUpAssistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC117326471A14CD2BF0A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0F2A45CE5998039ED89FB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */,
+				5A0C7B013281F83FB30FA2C9 /* Pods-HSongPopUpAssistant.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9B3A39A62BD63BFD00043A7F = {
 			isa = PBXGroup;
 			children = (
 				9B3A39B22BD63BFD00043A7F /* HSongPopUpAssistant */,
 				9B3A39B12BD63BFD00043A7F /* Products */,
+				9B0F2A45CE5998039ED89FB5 /* Pods */,
+				4DC117326471A14CD2BF0A55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,76 +105,73 @@
 			isa = PBXGroup;
 			children = (
 				9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */,
-				9B3A39C62BD63CA300043A7F /* gif */,
-				9B3A39BE2BD63CA300043A7F /* Main */,
-				9B3A39C92BD63CA300043A7F /* Utils */,
-				9B3A39D32BD63CA300043A7F /* V */,
+				9B3A3A1E2BD65ECF00043A7F /* gif */,
+				9B3A3A0C2BD65ECE00043A7F /* Main */,
+				9B3A3A192BD65ECF00043A7F /* Utils */,
+				9B3A3A162BD65ECE00043A7F /* V */,
 			);
 			path = HSongPopUpAssistant;
 			sourceTree = "<group>";
 		};
-		9B3A39BE2BD63CA300043A7F /* Main */ = {
+		9B3A3A0C2BD65ECE00043A7F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A39BA2BD63CA300043A7F /* PopUp.swift */,
-				9B3A39BB2BD63CA300043A7F /* PopUpAssistant.swift */,
-				9B3A39BC2BD63CA300043A7F /* PopUpConfigure.swift */,
-				9B3A39BD2BD63CA300043A7F /* PopUpUIConfigure.swift */,
+				9B3A3A082BD65ECE00043A7F /* PopUp.swift */,
+				9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */,
+				9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */,
+				9B3A3A0B2BD65ECE00043A7F /* PopUpUIConfigure.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		9B3A39C62BD63CA300043A7F /* gif */ = {
+		9B3A3A102BD65ECE00043A7F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A39BF2BD63CA300043A7F /* 1111222.gif */,
-				9B3A39C02BD63CA300043A7F /* 12198806.gif */,
-				9B3A39C12BD63CA300043A7F /* app_fail.gif */,
-				9B3A39C22BD63CA300043A7F /* app_success.gif */,
-				9B3A39C32BD63CA300043A7F /* app_warn.gif */,
-				9B3A39C42BD63CA300043A7F /* system-solid-31-check (5).gif */,
-				9B3A39C52BD63CA300043A7F /* system-solid-31-check.apng */,
-			);
-			path = gif;
-			sourceTree = "<group>";
-		};
-		9B3A39C92BD63CA300043A7F /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				9B3A39C72BD63CA300043A7F /* PopUpCommon.swift */,
-				9B3A39C82BD63CA300043A7F /* Simplinit.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		9B3A39CD2BD63CA300043A7F /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				9B3A39CA2BD63CA300043A7F /* PopUpBaseView.swift */,
-				9B3A39CB2BD63CA300043A7F /* PopUpCustomView.swift */,
-				9B3A39CC2BD63CA300043A7F /* PopUpNoticeCustomView.swift */,
+				9B3A3A0D2BD65ECE00043A7F /* PopUpBaseView.swift */,
+				9B3A3A0E2BD65ECE00043A7F /* PopUpCustomView.swift */,
+				9B3A3A0F2BD65ECE00043A7F /* PopUpNoticeCustomView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		9B3A39D22BD63CA300043A7F /* PresetView */ = {
+		9B3A3A152BD65ECE00043A7F /* PresetView */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A39CE2BD63CA300043A7F /* CountdownAlertView.swift */,
-				9B3A39CF2BD63CA300043A7F /* PopUpToastView.swift */,
-				9B3A39D02BD63CA300043A7F /* PopUpTwoBtnAndAgreementView.swift */,
-				9B3A39D12BD63CA300043A7F /* PopUpTwoBtnView.swift */,
+				9B3A3A112BD65ECE00043A7F /* CountdownAlertView.swift */,
+				9B3A3A122BD65ECE00043A7F /* PopUpToastView.swift */,
+				9B3A3A132BD65ECE00043A7F /* PopUpTwoBtnAndAgreementView.swift */,
+				9B3A3A142BD65ECE00043A7F /* PopUpTwoBtnView.swift */,
 			);
 			path = PresetView;
 			sourceTree = "<group>";
 		};
-		9B3A39D32BD63CA300043A7F /* V */ = {
+		9B3A3A162BD65ECE00043A7F /* V */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A39CD2BD63CA300043A7F /* Base */,
-				9B3A39D22BD63CA300043A7F /* PresetView */,
+				9B3A3A102BD65ECE00043A7F /* Base */,
+				9B3A3A152BD65ECE00043A7F /* PresetView */,
 			);
 			path = V;
+			sourceTree = "<group>";
+		};
+		9B3A3A192BD65ECF00043A7F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */,
+				9B3A3A182BD65ECF00043A7F /* Simplinit.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B3A3A1E2BD65ECF00043A7F /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				9B3A3A1A2BD65ECF00043A7F /* 1111222.gif */,
+				9B3A3A1B2BD65ECF00043A7F /* app_fail.gif */,
+				9B3A3A1C2BD65ECF00043A7F /* app_success.gif */,
+				9B3A3A1D2BD65ECF00043A7F /* app_warn.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B3A39B72BD63BFD00043A7F /* Build configuration list for PBXNativeTarget "HSongPopUpAssistant" */;
 			buildPhases = (
+				2904FD6235B653350D8B6B36 /* [CP] Check Pods Manifest.lock */,
 				9B3A39AB2BD63BFD00043A7F /* Headers */,
 				9B3A39AC2BD63BFD00043A7F /* Sources */,
 				9B3A39AD2BD63BFD00043A7F /* Frameworks */,
@@ -227,36 +244,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3A39DC2BD63CA300043A7F /* app_warn.gif in Resources */,
-				9B3A39DB2BD63CA300043A7F /* app_success.gif in Resources */,
-				9B3A39D82BD63CA300043A7F /* 1111222.gif in Resources */,
-				9B3A39D92BD63CA300043A7F /* 12198806.gif in Resources */,
-				9B3A39DD2BD63CA300043A7F /* system-solid-31-check (5).gif in Resources */,
-				9B3A39DE2BD63CA300043A7F /* system-solid-31-check.apng in Resources */,
-				9B3A39DA2BD63CA300043A7F /* app_fail.gif in Resources */,
+				9B3A3A2F2BD65ECF00043A7F /* app_warn.gif in Resources */,
+				9B3A3A2D2BD65ECF00043A7F /* app_fail.gif in Resources */,
+				9B3A3A2E2BD65ECF00043A7F /* app_success.gif in Resources */,
+				9B3A3A2C2BD65ECF00043A7F /* 1111222.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2904FD6235B653350D8B6B36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSongPopUpAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B3A39AC2BD63BFD00043A7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3A39E62BD63CA300043A7F /* PopUpTwoBtnAndAgreementView.swift in Sources */,
-				9B3A39D42BD63CA300043A7F /* PopUp.swift in Sources */,
-				9B3A39E42BD63CA300043A7F /* CountdownAlertView.swift in Sources */,
-				9B3A39E02BD63CA300043A7F /* Simplinit.swift in Sources */,
-				9B3A39E22BD63CA300043A7F /* PopUpCustomView.swift in Sources */,
-				9B3A39D72BD63CA300043A7F /* PopUpUIConfigure.swift in Sources */,
-				9B3A39D52BD63CA300043A7F /* PopUpAssistant.swift in Sources */,
-				9B3A39E72BD63CA300043A7F /* PopUpTwoBtnView.swift in Sources */,
-				9B3A39DF2BD63CA300043A7F /* PopUpCommon.swift in Sources */,
-				9B3A39E12BD63CA300043A7F /* PopUpBaseView.swift in Sources */,
-				9B3A39E52BD63CA300043A7F /* PopUpToastView.swift in Sources */,
-				9B3A39D62BD63CA300043A7F /* PopUpConfigure.swift in Sources */,
-				9B3A39E32BD63CA300043A7F /* PopUpNoticeCustomView.swift in Sources */,
+				9B3A3A242BD65ECF00043A7F /* PopUpCustomView.swift in Sources */,
+				9B3A3A1F2BD65ECF00043A7F /* PopUp.swift in Sources */,
+				9B3A3A282BD65ECF00043A7F /* PopUpTwoBtnAndAgreementView.swift in Sources */,
+				9B3A3A222BD65ECF00043A7F /* PopUpUIConfigure.swift in Sources */,
+				9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */,
+				9B3A3A252BD65ECF00043A7F /* PopUpNoticeCustomView.swift in Sources */,
+				9B3A3A2A2BD65ECF00043A7F /* PopUpCommon.swift in Sources */,
+				9B3A3A202BD65ECF00043A7F /* PopUpAssistant.swift in Sources */,
+				9B3A3A212BD65ECF00043A7F /* PopUpConfigure.swift in Sources */,
+				9B3A3A232BD65ECF00043A7F /* PopUpBaseView.swift in Sources */,
+				9B3A3A272BD65ECF00043A7F /* PopUpToastView.swift in Sources */,
+				9B3A3A292BD65ECF00043A7F /* PopUpTwoBtnView.swift in Sources */,
+				9B3A3A262BD65ECF00043A7F /* CountdownAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +429,7 @@
 		};
 		9B3A39B82BD63BFD00043A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +463,7 @@
 		};
 		9B3A39B92BD63BFD00043A7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0C7B013281F83FB30FA2C9 /* Pods-HSongPopUpAssistant.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;

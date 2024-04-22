@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name        = "HSongPopUpAssistant"
-  s.version     = "0.0.5"
+  s.version     = "0.0.1"
   s.summary     = "It can help you pop reset view or custom view easy"
-  s.homepage    = "https://github.com/Thered-key/HSPopUpAssistant"
+  s.homepage    = "https://github.com/Thered-key/HSongPopUpAssistant"
   s.license     = { :type => "MIT" }
   s.authors     = { "Thered-key" => "wereaiyou@163.com" }
 
@@ -14,6 +14,12 @@ Pod::Spec.new do |s|
   #s.watchos.deployment_target = "2.0"
   #s.tvos.deployment_target = "9.0"
 
-  s.source   = { :git => "https://github.com/Thered-key/HSPopUpAssistant.git", :tag => s.version }
+  s.source   = { :git => "https://github.com/Thered-key/HSongPopUpAssistant.git", :tag => s.version }
   s.source_files = "HSongPopUpAssistant/**/*.swift"
+
+  s.dependency 'MJRefresh'
+  s.dependency 'Gifu'
+  s.dependency 'MJExtension'
+  s.dependency 'SnapKit'
+
 end

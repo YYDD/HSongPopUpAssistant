@@ -6,10 +6,10 @@
 //
 
 import UIKit
-@_exported import SwiftyGif
 @_exported import SnapKit
 @_exported import MJRefresh
 @_exported import MJExtension
+@_exported import Gifu
 
 public class PopUp: NSObject {
     
@@ -25,7 +25,7 @@ public class PopUp: NSObject {
         PopUpAssistant.shared.showNoticeCustomView(toastView, useCover: false)
     }
     
-    public func showCountDown() {
+    func showCountDown() {
         PopUpAssistant.shared.showCountdownView(withTitle: "提示", andTipContent: "哈哈哈哈", andAutoBtnName: "你好", andTime: 30) { isAuto in
             //
         } closeAction: {
