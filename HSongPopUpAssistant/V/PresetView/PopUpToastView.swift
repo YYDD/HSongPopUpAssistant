@@ -35,7 +35,10 @@ class PopUpToastView: PopUpBaseView {
     //MARK: - 逻辑区
     func setUI(withConfigure configureModel: PopUpConfigure) {
 
-        self.mainSvgIcon.animate(withGIFNamed: "app_success")
+        
+        let myBundle = Bundle(path: "HSongPopUpAssistant/ResMine.bundle")
+        
+        self.mainSvgIcon.animate(withGIFNamed: "ResMine.bundle/1111222.gif")
         
         switch configureModel.toastType {
         case .success:
