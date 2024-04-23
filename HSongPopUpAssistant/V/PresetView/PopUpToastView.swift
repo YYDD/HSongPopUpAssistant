@@ -102,9 +102,9 @@ class PopUpToastView: PopUpBaseView {
     }
     
     func setImg(withImgName imgName: String) {
-        let mainBun = Bundle.main
-        let myBunPath = mainBun.path(forResource: "ResMine", ofType: "bundle")
-        let myBun = Bundle(path: myBunPath!)
+        let mainBun = Bundle(for: Self.self)
+        let myBunPath = mainBun.url(forResource: "ResMine", withExtension: "bundle")
+        let myBun = Bundle(url: myBunPath!)
         let myGifPaht = myBun?.path(forResource: imgName, ofType: "gif")
         let myGifData = try! Data(contentsOf: URL(fileURLWithPath: myGifPaht!))
         self.mainSvgIcon.animate(withGIFData: myGifData)
