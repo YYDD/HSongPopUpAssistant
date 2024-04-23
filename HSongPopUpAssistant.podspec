@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "HSongPopUpAssistant"
-  s.version     = "0.0.7"
+  s.version     = "0.0.8"
   s.summary     = "It can help you pop reset view or custom view easy"
   s.homepage    = "https://github.com/Thered-key/HSongPopUpAssistant"
   s.license     = { :type => "MIT" }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source   = { :git => "https://github.com/Thered-key/HSongPopUpAssistant.git", :tag => s.version }
   s.source_files = "HSongPopUpAssistant/**/*.swift"
-  s.resources = "HSongPopUpAssistant/ResMine/*.gif"
+  s.resources = "HSongPopUpAssistant/ResMine.bundle/*.gif"
 
   s.dependency 'MJRefresh'
   s.dependency 'Gifu'
