@@ -35,22 +35,20 @@ class PopUpToastView: PopUpBaseView {
     //MARK: - 逻辑区
     func setUI(withConfigure configureModel: PopUpConfigure) {
 
+        switch configureModel.toastType {
+        case .success:
+            self.setImg(withImgName: "app_success")
+            self.mainSvgIcon.animate(withGIFNamed: "app_success")
+        case .fail:
+            self.setImg(withImgName: "app_fail")
+            self.mainSvgIcon.animate(withGIFNamed: "app_fail")
+        case .warn:
+            self.setImg(withImgName: "app_warn")
+            self.mainSvgIcon.animate(withGIFNamed: "app_warn")
+        case .custom:
+            self.setImg(withImgName: configureModel.mainIconName)
+        }
         
-        let myBundle = Bundle(path: "HSongPopUpAssistant/ResMine.bundle")
-        
-        self.mainSvgIcon.animate(withGIFNamed: "ResMine.bundle/1111222.gif")
-        
-//        switch configureModel.toastType {
-//        case .success:
-//            self.mainSvgIcon.animate(withGIFNamed: "app_success")
-//        case .fail:
-//            self.mainSvgIcon.animate(withGIFNamed: "app_fail")
-//        case .warn:
-//            self.mainSvgIcon.animate(withGIFNamed: "app_warn")
-//        case .custom:
-//            self.mainSvgIcon.animate(withGIFNamed: "configureModel.mainIconName")
-//        }
-//        
 //        self.mainSvgIcon
         
         self.backgroundColor = configureModel.mainBgColor
@@ -101,6 +99,15 @@ class PopUpToastView: PopUpBaseView {
             self.popDelegate?.didClosePopView()
         }
         
+    }
+    
+    func setImg(withImgName imgName: String) {
+        let mainBun = Bundle.main
+        let myBunPath = mainBun.path(forResource: "ResMine", ofType: "bundle")
+        let myBun = Bundle(path: myBunPath!)
+        let myGifPaht = myBun?.path(forResource: imgName, ofType: "gif")
+        let myGifData = try! Data(contentsOf: URL(fileURLWithPath: myGifPaht!))
+        self.mainSvgIcon.animate(withGIFData: myGifData)
     }
     
     func calThisSize(fromConfigure configureModel: PopUpConfigure) {

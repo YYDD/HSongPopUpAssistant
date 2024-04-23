@@ -21,9 +21,6 @@
 		9B3A3A292BD65ECF00043A7F /* PopUpTwoBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A142BD65ECE00043A7F /* PopUpTwoBtnView.swift */; };
 		9B3A3A2A2BD65ECF00043A7F /* PopUpCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */; };
 		9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A182BD65ECF00043A7F /* Simplinit.swift */; };
-		9B3A3A2D2BD65ECF00043A7F /* app_fail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1B2BD65ECF00043A7F /* app_fail.gif */; };
-		9B3A3A2E2BD65ECF00043A7F /* app_success.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1C2BD65ECF00043A7F /* app_success.gif */; };
-		9B3A3A2F2BD65ECF00043A7F /* app_warn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A1D2BD65ECF00043A7F /* app_warn.gif */; };
 		9B3A3A332BD74DE600043A7F /* ResMine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A322BD74DE600043A7F /* ResMine.bundle */; };
 		EC37CF26AADC748424F47BFC /* Pods_HSongPopUpAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */; };
 /* End PBXBuildFile section */
@@ -46,9 +43,6 @@
 		9B3A3A142BD65ECE00043A7F /* PopUpTwoBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTwoBtnView.swift; sourceTree = "<group>"; };
 		9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCommon.swift; sourceTree = "<group>"; };
 		9B3A3A182BD65ECF00043A7F /* Simplinit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplinit.swift; sourceTree = "<group>"; };
-		9B3A3A1B2BD65ECF00043A7F /* app_fail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_fail.gif; sourceTree = "<group>"; };
-		9B3A3A1C2BD65ECF00043A7F /* app_success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_success.gif; sourceTree = "<group>"; };
-		9B3A3A1D2BD65ECF00043A7F /* app_warn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app_warn.gif; sourceTree = "<group>"; };
 		9B3A3A322BD74DE600043A7F /* ResMine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResMine.bundle; sourceTree = "<group>"; };
 		FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,9 +160,6 @@
 		9B3A3A1E2BD65ECF00043A7F /* gif */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A3A1B2BD65ECF00043A7F /* app_fail.gif */,
-				9B3A3A1C2BD65ECF00043A7F /* app_success.gif */,
-				9B3A3A1D2BD65ECF00043A7F /* app_warn.gif */,
 			);
 			path = gif;
 			sourceTree = "<group>";
@@ -243,9 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3A3A2F2BD65ECF00043A7F /* app_warn.gif in Resources */,
-				9B3A3A2D2BD65ECF00043A7F /* app_fail.gif in Resources */,
-				9B3A3A2E2BD65ECF00043A7F /* app_success.gif in Resources */,
 				9B3A3A332BD74DE600043A7F /* ResMine.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

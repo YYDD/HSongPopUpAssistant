@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "HSongPopUpAssistant"
-  s.version     = "0.0.5"
+  s.version     = "0.0.6"
   s.summary     = "It can help you pop reset view or custom view easy"
   s.homepage    = "https://github.com/Thered-key/HSongPopUpAssistant"
   s.license     = { :type => "MIT" }
