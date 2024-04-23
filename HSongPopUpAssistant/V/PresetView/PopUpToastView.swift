@@ -40,17 +40,17 @@ class PopUpToastView: PopUpBaseView {
         
         self.mainSvgIcon.animate(withGIFNamed: "ResMine.bundle/1111222.gif")
         
-        switch configureModel.toastType {
-        case .success:
-            self.mainSvgIcon.animate(withGIFNamed: "app_success")
-        case .fail:
-            self.mainSvgIcon.animate(withGIFNamed: "app_fail")
-        case .warn:
-            self.mainSvgIcon.animate(withGIFNamed: "app_warn")
-        case .custom:
-            self.mainSvgIcon.animate(withGIFNamed: "configureModel.mainIconName")
-        }
-        
+//        switch configureModel.toastType {
+//        case .success:
+//            self.mainSvgIcon.animate(withGIFNamed: "app_success")
+//        case .fail:
+//            self.mainSvgIcon.animate(withGIFNamed: "app_fail")
+//        case .warn:
+//            self.mainSvgIcon.animate(withGIFNamed: "app_warn")
+//        case .custom:
+//            self.mainSvgIcon.animate(withGIFNamed: "configureModel.mainIconName")
+//        }
+//        
 //        self.mainSvgIcon
         
         self.backgroundColor = configureModel.mainBgColor
