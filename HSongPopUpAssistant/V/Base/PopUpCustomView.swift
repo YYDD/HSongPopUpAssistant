@@ -22,6 +22,7 @@ class PopUpCustomView: UIView, PopUpAssistantDelegate {
     //-----UI-----
     var coverView = UIView()
     var customView = PopUpBaseView()
+    var tapGes: UITapGestureRecognizer?
     //-----Block-----
     var closeBlock: (() -> Void)?
     //-----Data-----
@@ -50,6 +51,16 @@ class PopUpCustomView: UIView, PopUpAssistantDelegate {
             coverView.snp.makeConstraints { (make) in
                 make.left.top.right.bottom.equalToSuperview()
             }
+        } else {
+            self.layer.shadowOffset = CGSize(width: 0, height: 0)
+            self.layer.shadowColor = UIColor.black.cgColor
+            self.layer.shadowOpacity = 0.3
+            self.layer.shadowRadius = 20
+            self.layer.cornerRadius = UIConfigure.SizeScale * 10
+            
+            self.tapGes = UITapGestureRecognizer(target: self, action: #selector(removeSelf))
+            UIApplication.shared.keyWindow?.addGestureRecognizer(self.tapGes!)
+            
         }
         self.addSubview(customView)
         
@@ -67,6 +78,9 @@ class PopUpCustomView: UIView, PopUpAssistantDelegate {
     
     @objc func removeSelf() {
         self.closeSelf()
+        if self.tapGes != nil {
+            UIApplication.shared.keyWindow?.removeGestureRecognizer(self.tapGes!)
+        }
     }
     
     func closeSelf() {

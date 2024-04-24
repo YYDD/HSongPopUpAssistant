@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9B3A39B42BD63BFD00043A7F /* HSongPopUpAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B3A3A1F2BD65ECF00043A7F /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A082BD65ECE00043A7F /* PopUp.swift */; };
 		9B3A3A202BD65ECF00043A7F /* PopUpAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */; };
 		9B3A3A212BD65ECF00043A7F /* PopUpConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */; };
 		9B3A3A222BD65ECF00043A7F /* PopUpUIConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0B2BD65ECE00043A7F /* PopUpUIConfigure.swift */; };
@@ -30,7 +29,6 @@
 		672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		9B3A39B02BD63BFD00043A7F /* HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSongPopUpAssistant.h; sourceTree = "<group>"; };
-		9B3A3A082BD65ECE00043A7F /* PopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
 		9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpAssistant.swift; sourceTree = "<group>"; };
 		9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpConfigure.swift; sourceTree = "<group>"; };
 		9B3A3A0B2BD65ECE00043A7F /* PopUpUIConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpUIConfigure.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 		9B3A3A0C2BD65ECE00043A7F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9B3A3A082BD65ECE00043A7F /* PopUp.swift */,
 				9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */,
 				9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */,
 				9B3A3A0B2BD65ECE00043A7F /* PopUpUIConfigure.swift */,
@@ -271,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B3A3A242BD65ECF00043A7F /* PopUpCustomView.swift in Sources */,
-				9B3A3A1F2BD65ECF00043A7F /* PopUp.swift in Sources */,
 				9B3A3A282BD65ECF00043A7F /* PopUpTwoBtnAndAgreementView.swift in Sources */,
 				9B3A3A222BD65ECF00043A7F /* PopUpUIConfigure.swift in Sources */,
 				9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */,

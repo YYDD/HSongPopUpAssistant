@@ -13,9 +13,6 @@ class PopUpToastView: PopUpBaseView {
     //-----UI-----
     var bgView = UIView()
     var mainIcon = UIImageView()
-//    var mainSvgIcon: UIImageView!
-//    var mainSvgIcon = UIImageView()
-//    var mainSvgIcon: SVGKFastImageView!
     var mainSvgIcon = GIFImageView()
     var titLab = UILabel()
         .size14
@@ -26,6 +23,7 @@ class PopUpToastView: PopUpBaseView {
         .size12
         .canManyLines
         .textCenter
+    var tapGes: UITapGestureRecognizer?
     //-----Block-----
     
     //-----Data-----
@@ -38,21 +36,14 @@ class PopUpToastView: PopUpBaseView {
         switch configureModel.toastType {
         case .success:
             self.setImg(withImgName: "app_success")
-            self.mainSvgIcon.animate(withGIFNamed: "app_success")
         case .fail:
             self.setImg(withImgName: "app_fail")
-            self.mainSvgIcon.animate(withGIFNamed: "app_fail")
         case .warn:
             self.setImg(withImgName: "app_warn")
-            self.mainSvgIcon.animate(withGIFNamed: "app_warn")
         case .custom:
             self.setImg(withImgName: configureModel.mainIconName)
         }
-        
-//        self.mainSvgIcon
-        
         self.backgroundColor = configureModel.mainBgColor
-//        self.cornerRadiu = UIConfigure.SizeScale * 10
         self.layer.shadowOffset = CGSize(width: 0, height: 0)
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 0.3
@@ -74,7 +65,6 @@ class PopUpToastView: PopUpBaseView {
             make.size.equalTo(icon_size)
         }
 
-        
         addSubview(titLab)
         titLab.snp.makeConstraints { (make) in
             make.top.equalTo(mainSvgIcon.snp.bottom).offset(UIConfigure.SizeScale * 15)
@@ -95,10 +85,18 @@ class PopUpToastView: PopUpBaseView {
 
         self.calThisSize(fromConfigure: configureModel)
         
-        self.tapActionsGesture {
-            self.popDelegate?.didClosePopView()
-        }
         
+        self.tapGes = UITapGestureRecognizer(target: self, action: #selector(removeSelf))
+        UIApplication.shared.keyWindow?.addGestureRecognizer(self.tapGes!)
+        
+    }
+    
+    @objc func removeSelf() {
+        self.popDelegate?.didClosePopView()
+        
+        if self.tapGes != nil {
+            UIApplication.shared.keyWindow?.removeGestureRecognizer(self.tapGes!)
+        }
     }
     
     func setImg(withImgName imgName: String) {
@@ -107,7 +105,7 @@ class PopUpToastView: PopUpBaseView {
         let myBun = Bundle(url: myBunPath!)
         let myGifPaht = myBun?.path(forResource: imgName, ofType: "gif")
         let myGifData = try! Data(contentsOf: URL(fileURLWithPath: myGifPaht!))
-        self.mainSvgIcon.animate(withGIFData: myGifData)
+        self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1)
     }
     
     func calThisSize(fromConfigure configureModel: PopUpConfigure) {

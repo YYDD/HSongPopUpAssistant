@@ -8,7 +8,7 @@
 import UIKit
 
 ///PopUpBaseView
-public class PopUpBaseView: UIView {
+open class PopUpBaseView: UIView {
     
     //MARK: - 声明区
     //-----UI-----
@@ -36,11 +36,11 @@ public class PopUpBaseView: UIView {
     //MARK: - 跳转区
     
     //MARK: - 生命区
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
