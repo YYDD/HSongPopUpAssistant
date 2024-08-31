@@ -130,7 +130,7 @@ public class PopUpAssistant: NSObject {
     
 }
 
-@objc protocol PopUpAssistantDelegate {
+@objc public protocol PopUpAssistantDelegate {
     func didClosePopView()
     func nextStep()
 }

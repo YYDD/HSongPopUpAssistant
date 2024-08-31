@@ -21,7 +21,7 @@ open class PopUpBaseView: UIView {
     /* 外部参数(从外部传入的数据) */
     
     /* 内部参数(从接口获取的数据以及其他内部数据) */
-    weak var popDelegate: PopUpAssistantDelegate?
+    public weak var popDelegate: PopUpAssistantDelegate?
     
     //MARK: - 逻辑区
     @objc func closeAction() {
