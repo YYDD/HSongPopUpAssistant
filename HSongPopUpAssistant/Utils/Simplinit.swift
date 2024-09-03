@@ -11,7 +11,7 @@ class Simplinit: NSObject {
 
 }
 
-public extension UITextField {
+extension UITextField {
     
     func stColor(_ colorName: String) -> Self {
         self.textColor = UIColor(colorName)
@@ -107,7 +107,7 @@ public extension UITextField {
 //
 }
 
-public extension UILabel {
+extension UILabel {
 
     
     //MARK: Color
@@ -325,7 +325,7 @@ public extension UILabel {
     
 }
 
-public extension UITableView {
+extension UITableView {
     
     var hiTableView: UITableView {
         let thisTableView = UITableView(frame: .zero, style: .grouped)
@@ -363,7 +363,7 @@ enum ButtonImagePosition : Int{
     case PositionRight
 }
 
-public extension UIButton {
+extension UIButton {
     
     static var hiBtn: UIButton {
         let btn = UIButton()
@@ -582,7 +582,7 @@ public extension UIButton {
     
 }
 
-public extension UIView {
+extension UIView {
     
     var hiView: UIView {
         let view = UIView()
@@ -697,7 +697,7 @@ public extension UIView {
     
 }
 
-public extension UIImageView {
+extension UIImageView {
     
     static var hiImg: UIImageView {
         let img = UIImageView()

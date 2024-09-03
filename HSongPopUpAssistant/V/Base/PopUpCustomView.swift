@@ -36,7 +36,7 @@ class PopUpCustomView: UIView, PopUpAssistantDelegate {
     
     //MARK: - 逻辑区
     /// 提示弹窗
-    func alert(customView: PopUpBaseView, position: PopUpAlertPosition, useCover: Bool = true) {
+    func alert(customView: PopUpBaseView, position: PopUpAlertPosition, useCover: Bool = true, touchCoverHidden: Bool, tapSelfRemove: Bool) {
         self.customView = customView
         customView.popDelegate = self
         // 1.将弹出位置保存一下
@@ -46,7 +46,9 @@ class PopUpCustomView: UIView, PopUpAssistantDelegate {
         // 3.遮罩
         if useCover {
             coverView.backgroundColor = UIColor(white: 0, alpha: 0.3)
-            coverView.addTarget(self, action: #selector(removeSelf))
+            if touchCoverHidden {
+                coverView.addTarget(self, action: #selector(removeSelf))
+            }
             UIApplication.shared.keyWindow?.addSubview(coverView)
             coverView.snp.makeConstraints { (make) in
                 make.left.top.right.bottom.equalToSuperview()
@@ -58,9 +60,10 @@ class PopUpCustomView: UIView, PopUpAssistantDelegate {
             self.layer.shadowRadius = 20
             self.layer.cornerRadius = UIConfigure.SizeScale * 10
             
-            self.tapGes = UITapGestureRecognizer(target: self, action: #selector(removeSelf))
-            UIApplication.shared.keyWindow?.addGestureRecognizer(self.tapGes!)
-            
+            if tapSelfRemove {
+                self.tapGes = UITapGestureRecognizer(target: self, action: #selector(removeSelf))
+                UIApplication.shared.keyWindow?.addGestureRecognizer(self.tapGes!)
+            }
         }
         self.addSubview(customView)
         

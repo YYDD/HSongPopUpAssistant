@@ -24,10 +24,10 @@ public class PopUpAssistant: NSObject {
     ///   - customView: 自定义视图
     ///   - position: 弹窗位置
     ///   - useCover: 是否使用遮罩
-    public func showCustomView(_ customView: PopUpBaseView, position: PopUpAlertPosition, useCover: Bool) {
+    public func showCustomView(_ customView: PopUpBaseView, position: PopUpAlertPosition, useCover: Bool, touchCoverHidden: Bool = true, tapSelfRemove: Bool = true) {
         let cview = PopUpCustomView()
         cview.topPadding = UIConfigure.KStatusBarHeight
-        cview.alert(customView: customView, position: position, useCover: useCover)
+        cview.alert(customView: customView, position: position, useCover: useCover, touchCoverHidden: touchCoverHidden, tapSelfRemove: tapSelfRemove)
     }
     
     /// 自定义通知
