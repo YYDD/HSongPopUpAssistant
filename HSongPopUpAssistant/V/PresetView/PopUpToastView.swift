@@ -106,11 +106,15 @@ class PopUpToastView: PopUpBaseView {
         let myGifPaht = myBun?.path(forResource: imgName, ofType: "gif")
         let myGifData = try! Data(contentsOf: URL(fileURLWithPath: myGifPaht!))
 //        self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1)
+        
+        let impact = UIImpactFeedbackGenerator(style: .heavy)
+        impact.prepare()
         self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1) {
-            print("1")
+            print("a block running")
         } animationBlock: {
-            print("2")
+            impact.impactOccurred()
         }
+        
 
     }
     
