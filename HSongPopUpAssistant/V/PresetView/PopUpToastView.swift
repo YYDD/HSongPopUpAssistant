@@ -105,7 +105,13 @@ class PopUpToastView: PopUpBaseView {
         let myBun = Bundle(url: myBunPath!)
         let myGifPaht = myBun?.path(forResource: imgName, ofType: "gif")
         let myGifData = try! Data(contentsOf: URL(fileURLWithPath: myGifPaht!))
-        self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1)
+//        self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1)
+        self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1) {
+            print("1")
+        } animationBlock: {
+            print("2")
+        }
+
     }
     
     func calThisSize(fromConfigure configureModel: PopUpConfigure) {

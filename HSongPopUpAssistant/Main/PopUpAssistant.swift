@@ -38,11 +38,12 @@ public class PopUpAssistant: NSObject {
     }
     
     /// 预设toast
-    public func showToast(_ type: PopUpToastType, mainTitle: String, subTitle: String = "") {
+    public func showToast(_ type: PopUpToastType, mainTitle: String, subTitle: String = "", haveVibration: Bool = true) {
         var toastConfigure = PopUpConfigure()
         toastConfigure.toastType = type
         toastConfigure.mainTitle = mainTitle
         toastConfigure.subTitle = subTitle
+        toastConfigure.haveVibration = haveVibration
         let toastView = PopUpToastView(frame: .zero, configureModel: toastConfigure)
         self.showNoticeCustomView(toastView, useCover: false)
     }

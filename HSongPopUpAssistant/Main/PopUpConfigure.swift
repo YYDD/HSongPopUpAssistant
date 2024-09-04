@@ -30,4 +30,7 @@ public struct PopUpConfigure {
     /// 弹窗类型
     var toastType = PopUpToastType.success
     
+    /// 需要震动效果
+    var haveVibration = false
+    
 }
