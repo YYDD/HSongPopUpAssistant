@@ -21,6 +21,7 @@
 		9B3A3A2A2BD65ECF00043A7F /* PopUpCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */; };
 		9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A182BD65ECF00043A7F /* Simplinit.swift */; };
 		9B3A3A332BD74DE600043A7F /* ResMine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A322BD74DE600043A7F /* ResMine.bundle */; };
+		9BEBD3682C8998A60062D97F /* HapticFeedbackHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBD3672C8998A50062D97F /* HapticFeedbackHelper.swift */; };
 		EC37CF26AADC748424F47BFC /* Pods_HSongPopUpAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCommon.swift; sourceTree = "<group>"; };
 		9B3A3A182BD65ECF00043A7F /* Simplinit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplinit.swift; sourceTree = "<group>"; };
 		9B3A3A322BD74DE600043A7F /* ResMine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResMine.bundle; sourceTree = "<group>"; };
+		9BEBD3672C8998A50062D97F /* HapticFeedbackHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticFeedbackHelper.swift; sourceTree = "<group>"; };
 		FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 			children = (
 				9B3A3A172BD65ECF00043A7F /* PopUpCommon.swift */,
 				9B3A3A182BD65ECF00043A7F /* Simplinit.swift */,
+				9BEBD3672C8998A50062D97F /* HapticFeedbackHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				9B3A3A222BD65ECF00043A7F /* PopUpUIConfigure.swift in Sources */,
 				9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */,
 				9B3A3A252BD65ECF00043A7F /* PopUpNoticeCustomView.swift in Sources */,
+				9BEBD3682C8998A60062D97F /* HapticFeedbackHelper.swift in Sources */,
 				9B3A3A2A2BD65ECF00043A7F /* PopUpCommon.swift in Sources */,
 				9B3A3A202BD65ECF00043A7F /* PopUpAssistant.swift in Sources */,
 				9B3A3A212BD65ECF00043A7F /* PopUpConfigure.swift in Sources */,
@@ -426,6 +430,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +465,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "HSongPopUpAssistant"
-  s.version     = "0.1.7"
+  s.version     = "0.1.9"
   s.summary     = "It can help you pop reset view or custom view easy"
   s.homepage    = "https://github.com/Thered-key/HSongPopUpAssistant"
   s.license     = { :type => "MIT" }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
 
   #s.osx.deployment_target = "10.9"
-  s.ios.deployment_target = "12.0"
+  s.ios.deployment_target = "13.0"
   #s.watchos.deployment_target = "2.0"
   #s.tvos.deployment_target = "9.0"
 
