@@ -6,7 +6,6 @@ target 'HSongPopUpAssistant' do
   use_frameworks!
 
   # Pods for HSongPopUpAssistant
-pod 'MJRefresh'
 pod 'MJExtension'
 pod 'SnapKit'
 pod 'Gifu'

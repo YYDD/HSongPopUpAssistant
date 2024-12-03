@@ -1,28 +1,24 @@
 PODS:
   - Gifu (3.3.1)
   - MJExtension (3.4.2)
-  - MJRefresh (3.7.9)
   - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - Gifu
   - MJExtension
-  - MJRefresh
   - SnapKit
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Gifu
     - MJExtension
-    - MJRefresh
     - SnapKit
 
 SPEC CHECKSUMS:
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
   MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
-  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 6295edc1f475ad191ce7634f15890da2639df058
+PODFILE CHECKSUM: c4b1d674969d7e2e22793f9c3526253d7f38a796
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

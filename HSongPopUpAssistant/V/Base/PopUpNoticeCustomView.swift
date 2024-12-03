@@ -76,14 +76,14 @@ class PopUpNoticeCustomView: UIView, PopUpAssistantDelegate {
             self.removeFromSuperview()
         case .bottom:
             UIView.animate(withDuration: 0.3) {
-                self.mj_y = UIConfigure.Height
+                self.setY(UIConfigure.Height)
             } completion: { isSuccess in
                 self.coverView.removeFromSuperview()
                 self.removeFromSuperview()
             }
         case .top:
             UIView.animate(withDuration: 0.3) {
-                self.mj_y = -self.view_h
+                self.setY(-self.view_h)
             } completion: { isSuccess in
                 self.coverView.removeFromSuperview()
                 self.removeFromSuperview()
@@ -115,7 +115,7 @@ class PopUpNoticeCustomView: UIView, PopUpAssistantDelegate {
             
             // 使用 UIView.animate 执行动画，使视图从底部滑入
             UIView.animate(withDuration: 0.3) {
-                self.mj_y = pop_y
+                self.setY(pop_y)
             } completion: { isSuccess in
                 if isSuccess {
                     print("展示成功")
