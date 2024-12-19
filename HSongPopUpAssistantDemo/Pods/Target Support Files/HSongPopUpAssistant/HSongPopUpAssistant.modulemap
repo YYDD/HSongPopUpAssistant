@@ -1,0 +1,6 @@
+framework module HSongPopUpAssistant {
+  umbrella header "HSongPopUpAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

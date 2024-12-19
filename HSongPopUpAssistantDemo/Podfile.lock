@@ -1,0 +1,32 @@
+PODS:
+  - Gifu (3.3.1)
+  - HSongPopUpAssistant (0.1.7):
+    - Gifu
+    - MJExtension
+    - MJRefresh
+    - SnapKit
+  - MJExtension (3.4.2)
+  - MJRefresh (3.7.9)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - HSongPopUpAssistant
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Gifu
+    - HSongPopUpAssistant
+    - MJExtension
+    - MJRefresh
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  HSongPopUpAssistant: d7a33ae3d84b7d420adc937d56b803de34d5692d
+  MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 4a1ef0a9eb5530be7ebbba70658ebab26d5f5761
+
+COCOAPODS: 1.16.2

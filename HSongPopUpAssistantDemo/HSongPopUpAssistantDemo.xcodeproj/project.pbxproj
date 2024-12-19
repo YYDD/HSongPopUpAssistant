@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A33139DE69E535683E4464 /* Pods_HSongPopUpAssistantDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF86B2F1E5B110FA8FCA9B4 /* Pods_HSongPopUpAssistantDemo.framework */; };
 		9B3A39F52BD63D2700043A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39F42BD63D2700043A7F /* AppDelegate.swift */; };
 		9B3A39F72BD63D2700043A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39F62BD63D2700043A7F /* SceneDelegate.swift */; };
 		9B3A39F92BD63D2700043A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39F82BD63D2700043A7F /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CF86B2F1E5B110FA8FCA9B4 /* Pods_HSongPopUpAssistantDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistantDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A6BEF716F816E336F6C4E2 /* Pods-HSongPopUpAssistantDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistantDemo.release.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8012CCB061A6273A2C1EA311 /* Pods-HSongPopUpAssistantDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistantDemo.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9B3A39F12BD63D2700043A7F /* HSongPopUpAssistantDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSongPopUpAssistantDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A39F42BD63D2700043A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B3A39F62BD63D2700043A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A33139DE69E535683E4464 /* Pods_HSongPopUpAssistantDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AB91E09FC8E496FEF13701E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF86B2F1E5B110FA8FCA9B4 /* Pods_HSongPopUpAssistantDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B3A39E82BD63D2700043A7F = {
 			isa = PBXGroup;
 			children = (
 				9B3A39F32BD63D2700043A7F /* HSongPopUpAssistantDemo */,
 				9B3A39F22BD63D2700043A7F /* Products */,
+				AE84E112B62EA93F4C82C8BC /* Pods */,
+				8AB91E09FC8E496FEF13701E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = HSongPopUpAssistantDemo;
 			sourceTree = "<group>";
 		};
+		AE84E112B62EA93F4C82C8BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8012CCB061A6273A2C1EA311 /* Pods-HSongPopUpAssistantDemo.debug.xcconfig */,
+				55A6BEF716F816E336F6C4E2 /* Pods-HSongPopUpAssistantDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B3A3A052BD63D2A00043A7F /* Build configuration list for PBXNativeTarget "HSongPopUpAssistantDemo" */;
 			buildPhases = (
+				8DBC8ADC3BC004ED6A1EC169 /* [CP] Check Pods Manifest.lock */,
 				9B3A39ED2BD63D2700043A7F /* Sources */,
 				9B3A39EE2BD63D2700043A7F /* Frameworks */,
 				9B3A39EF2BD63D2700043A7F /* Resources */,
+				2DC2FCCB61B47DF75201634E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DC2FCCB61B47DF75201634E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBC8ADC3BC004ED6A1EC169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSongPopUpAssistantDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B3A39ED2BD63D2700043A7F /* Sources */ = {
@@ -287,6 +356,7 @@
 		};
 		9B3A3A062BD63D2A00043A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8012CCB061A6273A2C1EA311 /* Pods-HSongPopUpAssistantDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +385,7 @@
 		};
 		9B3A3A072BD63D2A00043A7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A6BEF716F816E336F6C4E2 /* Pods-HSongPopUpAssistantDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
