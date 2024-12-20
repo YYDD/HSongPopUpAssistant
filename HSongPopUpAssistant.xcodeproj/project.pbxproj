@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9A1BB10B2CFE98E700AD06BB /* MyTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1BB10A2CFE98E700AD06BB /* MyTool.swift */; };
+		9A4323142D157A4300155AB6 /* FrameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323032D157A4300155AB6 /* FrameStore.swift */; };
+		9A4323152D157A4300155AB6 /* GIFAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323042D157A4300155AB6 /* GIFAnimatable.swift */; };
+		9A4323162D157A4300155AB6 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323022D157A4300155AB6 /* CGSize.swift */; };
+		9A4323172D157A4300155AB6 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323002D157A4300155AB6 /* Animator.swift */; };
+		9A4323182D157A4300155AB6 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323082D157A4300155AB6 /* UIImage.swift */; };
+		9A4323192D157A4300155AB6 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323052D157A4300155AB6 /* GIFImageView.swift */; };
+		9A43231A2D157A4300155AB6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323092D157A4300155AB6 /* UIImageView.swift */; };
+		9A43231C2D157A4300155AB6 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323072D157A4300155AB6 /* ImageSourceHelpers.swift */; };
+		9A43231D2D157A4300155AB6 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4323012D157A4300155AB6 /* Array.swift */; };
+		9A43231E2D157A4300155AB6 /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4322FF2D157A4300155AB6 /* AnimatedFrame.swift */; };
+		9A4323212D157A4300155AB6 /* Gifu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4323062D157A4300155AB6 /* Gifu.h */; };
 		9B3A39B42BD63BFD00043A7F /* HSongPopUpAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B3A3A202BD65ECF00043A7F /* PopUpAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */; };
 		9B3A3A212BD65ECF00043A7F /* PopUpConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A0A2BD65ECE00043A7F /* PopUpConfigure.swift */; };
@@ -30,6 +41,17 @@
 		51A697A0BCE81B1CA044F568 /* libPods-HSongPopUpAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSongPopUpAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9856F935EF90CCFBF64947E4 /* Pods-HSongPopUpAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		9A1BB10A2CFE98E700AD06BB /* MyTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTool.swift; sourceTree = "<group>"; };
+		9A4322FF2D157A4300155AB6 /* AnimatedFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = Sources/Gifu/Classes/AnimatedFrame.swift; sourceTree = "<group>"; };
+		9A4323002D157A4300155AB6 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Sources/Gifu/Classes/Animator.swift; sourceTree = "<group>"; };
+		9A4323012D157A4300155AB6 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Gifu/Extensions/Array.swift; sourceTree = "<group>"; };
+		9A4323022D157A4300155AB6 /* CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = Sources/Gifu/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		9A4323032D157A4300155AB6 /* FrameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FrameStore.swift; path = Sources/Gifu/Classes/FrameStore.swift; sourceTree = "<group>"; };
+		9A4323042D157A4300155AB6 /* GIFAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GIFAnimatable.swift; path = Sources/Gifu/Classes/GIFAnimatable.swift; sourceTree = "<group>"; };
+		9A4323052D157A4300155AB6 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GIFImageView.swift; path = Sources/Gifu/Classes/GIFImageView.swift; sourceTree = "<group>"; };
+		9A4323062D157A4300155AB6 /* Gifu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Gifu.h; path = Sources/Gifu.h; sourceTree = "<group>"; };
+		9A4323072D157A4300155AB6 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageSourceHelpers.swift; path = Sources/Gifu/Helpers/ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		9A4323082D157A4300155AB6 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Sources/Gifu/Extensions/UIImage.swift; sourceTree = "<group>"; };
+		9A4323092D157A4300155AB6 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Sources/Gifu/Extensions/UIImageView.swift; sourceTree = "<group>"; };
 		9B3A39B02BD63BFD00043A7F /* HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSongPopUpAssistant.h; sourceTree = "<group>"; };
 		9B3A3A092BD65ECE00043A7F /* PopUpAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpAssistant.swift; sourceTree = "<group>"; };
@@ -67,6 +89,24 @@
 				51A697A0BCE81B1CA044F568 /* libPods-HSongPopUpAssistant.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A4323112D157A4300155AB6 /* Gifu */ = {
+			isa = PBXGroup;
+			children = (
+				9A4322FF2D157A4300155AB6 /* AnimatedFrame.swift */,
+				9A4323002D157A4300155AB6 /* Animator.swift */,
+				9A4323012D157A4300155AB6 /* Array.swift */,
+				9A4323022D157A4300155AB6 /* CGSize.swift */,
+				9A4323032D157A4300155AB6 /* FrameStore.swift */,
+				9A4323042D157A4300155AB6 /* GIFAnimatable.swift */,
+				9A4323052D157A4300155AB6 /* GIFImageView.swift */,
+				9A4323062D157A4300155AB6 /* Gifu.h */,
+				9A4323072D157A4300155AB6 /* ImageSourceHelpers.swift */,
+				9A4323082D157A4300155AB6 /* UIImage.swift */,
+				9A4323092D157A4300155AB6 /* UIImageView.swift */,
+			);
+			path = Gifu;
 			sourceTree = "<group>";
 		};
 		9B0F2A45CE5998039ED89FB5 /* Pods */ = {
@@ -163,6 +203,7 @@
 		9B3A3A1E2BD65ECF00043A7F /* gif */ = {
 			isa = PBXGroup;
 			children = (
+				9A4323112D157A4300155AB6 /* Gifu */,
 			);
 			path = gif;
 			sourceTree = "<group>";
@@ -174,6 +215,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4323212D157A4300155AB6 /* Gifu.h in Headers */,
 				9B3A39B42BD63BFD00043A7F /* HSongPopUpAssistant.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,7 +232,6 @@
 				9B3A39AC2BD63BFD00043A7F /* Sources */,
 				9B3A39AD2BD63BFD00043A7F /* Frameworks */,
 				9B3A39AE2BD63BFD00043A7F /* Resources */,
-				C57A7F397D5A8E42337CFC1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,23 +308,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C57A7F397D5A8E42337CFC1E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -302,6 +326,16 @@
 				9B3A3A212BD65ECF00043A7F /* PopUpConfigure.swift in Sources */,
 				9B3A3A232BD65ECF00043A7F /* PopUpBaseView.swift in Sources */,
 				9B3A3A272BD65ECF00043A7F /* PopUpToastView.swift in Sources */,
+				9A4323142D157A4300155AB6 /* FrameStore.swift in Sources */,
+				9A4323152D157A4300155AB6 /* GIFAnimatable.swift in Sources */,
+				9A4323162D157A4300155AB6 /* CGSize.swift in Sources */,
+				9A4323172D157A4300155AB6 /* Animator.swift in Sources */,
+				9A4323182D157A4300155AB6 /* UIImage.swift in Sources */,
+				9A4323192D157A4300155AB6 /* GIFImageView.swift in Sources */,
+				9A43231A2D157A4300155AB6 /* UIImageView.swift in Sources */,
+				9A43231C2D157A4300155AB6 /* ImageSourceHelpers.swift in Sources */,
+				9A43231D2D157A4300155AB6 /* Array.swift in Sources */,
+				9A43231E2D157A4300155AB6 /* AnimatedFrame.swift in Sources */,
 				9A1BB10B2CFE98E700AD06BB /* MyTool.swift in Sources */,
 				9B3A3A292BD65ECF00043A7F /* PopUpTwoBtnView.swift in Sources */,
 				9B3A3A262BD65ECF00043A7F /* CountdownAlertView.swift in Sources */,

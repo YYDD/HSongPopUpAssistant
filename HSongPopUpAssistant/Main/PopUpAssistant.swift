@@ -8,7 +8,7 @@
 import UIKit
 @_exported import SnapKit
 //@_exported import MJExtension
-@_exported import Gifu
+//@_exported import Gifu
 
 public class PopUpAssistant: NSObject {
     

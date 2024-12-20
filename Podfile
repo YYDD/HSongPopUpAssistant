@@ -8,7 +8,7 @@ target 'HSongPopUpAssistant' do
 #  use_frameworks!
 
   # Pods for HSongPopUpAssistant
-pod 'MJExtension'
+#pod 'MJExtension'
 pod 'SnapKit', '5.0.1'
-pod 'Gifu'
+#pod 'Gifu'
 end
