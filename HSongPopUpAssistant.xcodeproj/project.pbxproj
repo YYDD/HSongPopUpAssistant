@@ -23,12 +23,12 @@
 		9B3A3A2B2BD65ECF00043A7F /* Simplinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A3A182BD65ECF00043A7F /* Simplinit.swift */; };
 		9B3A3A332BD74DE600043A7F /* ResMine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A322BD74DE600043A7F /* ResMine.bundle */; };
 		9BEBD3682C8998A60062D97F /* HapticFeedbackHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBD3672C8998A50062D97F /* HapticFeedbackHelper.swift */; };
-		EC37CF26AADC748424F47BFC /* Pods_HSongPopUpAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */; };
+		DC6460066F25F196CECFBD41 /* libPods-HSongPopUpAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A697A0BCE81B1CA044F568 /* libPods-HSongPopUpAssistant.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A0C7B013281F83FB30FA2C9 /* Pods-HSongPopUpAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.release.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.release.xcconfig"; sourceTree = "<group>"; };
-		672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		51A697A0BCE81B1CA044F568 /* libPods-HSongPopUpAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSongPopUpAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9856F935EF90CCFBF64947E4 /* Pods-HSongPopUpAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.debug.xcconfig"; sourceTree = "<group>"; };
 		9A1BB10A2CFE98E700AD06BB /* MyTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTool.swift; sourceTree = "<group>"; };
 		9B3A39B02BD63BFD00043A7F /* HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A39B32BD63BFD00043A7F /* HSongPopUpAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSongPopUpAssistant.h; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		9B3A3A182BD65ECF00043A7F /* Simplinit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplinit.swift; sourceTree = "<group>"; };
 		9B3A3A322BD74DE600043A7F /* ResMine.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResMine.bundle; sourceTree = "<group>"; };
 		9BEBD3672C8998A50062D97F /* HapticFeedbackHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticFeedbackHelper.swift; sourceTree = "<group>"; };
-		FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECEBFED4163E008810BD033 /* Pods-HSongPopUpAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistant.release.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +54,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC37CF26AADC748424F47BFC /* Pods_HSongPopUpAssistant.framework in Frameworks */,
+				DC6460066F25F196CECFBD41 /* libPods-HSongPopUpAssistant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC117326471A14CD2BF0A55 /* Frameworks */ = {
+		3C3FE2A13E35CC90121B648E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FED3CE8EB69E9CC75FD2A05F /* Pods_HSongPopUpAssistant.framework */,
+				51A697A0BCE81B1CA044F568 /* libPods-HSongPopUpAssistant.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,8 +72,8 @@
 		9B0F2A45CE5998039ED89FB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */,
-				5A0C7B013281F83FB30FA2C9 /* Pods-HSongPopUpAssistant.release.xcconfig */,
+				9856F935EF90CCFBF64947E4 /* Pods-HSongPopUpAssistant.debug.xcconfig */,
+				FECEBFED4163E008810BD033 /* Pods-HSongPopUpAssistant.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 				9B3A39B22BD63BFD00043A7F /* HSongPopUpAssistant */,
 				9B3A39B12BD63BFD00043A7F /* Products */,
 				9B0F2A45CE5998039ED89FB5 /* Pods */,
-				4DC117326471A14CD2BF0A55 /* Frameworks */,
+				3C3FE2A13E35CC90121B648E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,11 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B3A39B72BD63BFD00043A7F /* Build configuration list for PBXNativeTarget "HSongPopUpAssistant" */;
 			buildPhases = (
-				2904FD6235B653350D8B6B36 /* [CP] Check Pods Manifest.lock */,
+				80AA4B9149D78D34232CC0C9 /* [CP] Check Pods Manifest.lock */,
 				9B3A39AB2BD63BFD00043A7F /* Headers */,
 				9B3A39AC2BD63BFD00043A7F /* Sources */,
 				9B3A39AD2BD63BFD00043A7F /* Frameworks */,
 				9B3A39AE2BD63BFD00043A7F /* Resources */,
+				C57A7F397D5A8E42337CFC1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +245,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2904FD6235B653350D8B6B36 /* [CP] Check Pods Manifest.lock */ = {
+		80AA4B9149D78D34232CC0C9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,6 +265,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57A7F397D5A8E42337CFC1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSongPopUpAssistant/Pods-HSongPopUpAssistant-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,9 +438,9 @@
 		};
 		9B3A39B82BD63BFD00043A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 672E6D63ED8D9F5F20E35FEF /* Pods-HSongPopUpAssistant.debug.xcconfig */;
+			baseConfigurationReference = 9856F935EF90CCFBF64947E4 /* Pods-HSongPopUpAssistant.debug.xcconfig */;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -431,10 +449,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,9 +474,9 @@
 		};
 		9B3A39B92BD63BFD00043A7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A0C7B013281F83FB30FA2C9 /* Pods-HSongPopUpAssistant.release.xcconfig */;
+			baseConfigurationReference = FECEBFED4163E008810BD033 /* Pods-HSongPopUpAssistant.release.xcconfig */;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -466,10 +485,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

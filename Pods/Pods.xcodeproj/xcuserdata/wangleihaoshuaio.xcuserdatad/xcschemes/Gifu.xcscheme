@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "830B5AB9E16163B4A1BA339D625FE46C"
-               BuildableName = "Gifu.framework"
+               BuildableName = "libGifu.a"
                BlueprintName = "Gifu"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
