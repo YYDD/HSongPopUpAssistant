@@ -107,12 +107,11 @@ class PopUpToastView: PopUpBaseView {
         let myGifData = try! Data(contentsOf: URL(fileURLWithPath: myGifPaht!))
 //        self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1)
         
-        let impact = UIImpactFeedbackGenerator(style: .heavy)
-        impact.prepare()
+
         self.mainSvgIcon.animate(withGIFData: myGifData, loopCount: 1) {
             print("a block running")
         } animationBlock: {
-            impact.impactOccurred()
+            HapticFeedbackHelper.shared.triggerCompletionHaptic()
         }
         
 
