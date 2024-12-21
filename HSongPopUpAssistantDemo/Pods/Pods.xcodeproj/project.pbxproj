@@ -65,8 +65,8 @@
 		BB91E6B3562D3F68147146AABFC9F2FA /* PopUpBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452A4B4C246D355E577259D56A4DA65 /* PopUpBaseView.swift */; };
 		C087AADF1E489920CD953BD6CCDB9503 /* 1111222.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B3DD3B1C8F6228D2EA65C07EE149B6F /* 1111222.gif */; };
 		C137A93542C073E6C32F6FF4248894B4 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD438390802DE500814CA724F833957 /* GIFImageView.swift */; };
-		C301FAF3FDA9E8EF849A820963224E28 /* HSongPopUpAssistant-ResMine in Resources */ = {isa = PBXBuildFile; fileRef = 568DA05127BBAB9DD747591790BE2C3A /* HSongPopUpAssistant-ResMine */; };
-		C4B6FAEF0CAEAF53EED4820FC0B3682F /* SnapKit-SnapKit_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */; };
+		C301FAF3FDA9E8EF849A820963224E28 /* ResMine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 568DA05127BBAB9DD747591790BE2C3A /* ResMine.bundle */; };
+		C4B6FAEF0CAEAF53EED4820FC0B3682F /* SnapKit_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */; };
 		C5111486E1FB118483EDDDC121A90E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		C6674FB001C535373903ED6586E894FC /* app_warn.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE3577D3D0DC91E20662227A0157D8BF /* app_warn.gif */; };
 		C773B6A5F245CFED093107046894CCD6 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570DA41CAB6EABEBEC26FB5D2DBFBDC /* ConstraintMakerPrioritizable.swift */; };
@@ -143,7 +143,7 @@
 		2378E39F763347221CE24E0B87AC7900 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		28C0C87C6E5768B5032E9A25022D596F /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
 		2DD438390802DE500814CA724F833957 /* GIFImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFImageView.swift; path = HSongPopUpAssistant/gif/Gifu/Sources/Gifu/Classes/GIFImageView.swift; sourceTree = "<group>"; };
-		2DF40028AD2F289FEBF88453CC4DA937 /* Pods-HSongPopUpAssistantDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSongPopUpAssistantDemo"; path = Pods_HSongPopUpAssistantDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF40028AD2F289FEBF88453CC4DA937 /* Pods_HSongPopUpAssistantDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistantDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E164E5396AD5D96A756BFC9FF2D2C16 /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = HSongPopUpAssistant/gif/Gifu/Sources/Gifu/Extensions/CGSize.swift; sourceTree = "<group>"; };
 		2ED1D441861207DFD78E7E4B93B11ED7 /* PopUpCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpCommon.swift; path = HSongPopUpAssistant/Utils/PopUpCommon.swift; sourceTree = "<group>"; };
 		2F4DE6249E0FDA0A77C30F78446A3788 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
@@ -159,10 +159,10 @@
 		423E2C88C886C6D3D6DBBFA35F09CC4C /* Pods-HSongPopUpAssistantDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSongPopUpAssistantDemo.modulemap"; sourceTree = "<group>"; };
 		42410990DBC3E3868AC5C6648F8F8DCC /* HSongPopUpAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSongPopUpAssistant.debug.xcconfig; sourceTree = "<group>"; };
 		488EEC312A71400E7B0BE4881728ED54 /* Simplinit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Simplinit.swift; path = HSongPopUpAssistant/Utils/Simplinit.swift; sourceTree = "<group>"; };
-		4D1CE947F1421B30623CDDA70B418FCE /* HSongPopUpAssistant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSongPopUpAssistant; path = HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1CE947F1421B30623CDDA70B418FCE /* HSongPopUpAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSongPopUpAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		554227E30798EBFDC86CB1CA4DF505C6 /* PopUpTwoBtnView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpTwoBtnView.swift; path = HSongPopUpAssistant/V/PresetView/PopUpTwoBtnView.swift; sourceTree = "<group>"; };
 		55727CAD0C5FF4A50EC732DB479E0B4E /* AnimatedFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedFrame.swift; path = HSongPopUpAssistant/gif/Gifu/Sources/Gifu/Classes/AnimatedFrame.swift; sourceTree = "<group>"; };
-		568DA05127BBAB9DD747591790BE2C3A /* HSongPopUpAssistant-ResMine */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HSongPopUpAssistant-ResMine"; path = ResMine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		568DA05127BBAB9DD747591790BE2C3A /* ResMine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResMine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE61D59A08A429031DD9E2CF891BC01 /* PopUpNoticeCustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpNoticeCustomView.swift; path = HSongPopUpAssistant/V/Base/PopUpNoticeCustomView.swift; sourceTree = "<group>"; };
 		61B814D838C04353C031E8CE3A9099B0 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		63D8E6A4CC04834C7D5E9EC1CCFC0270 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
@@ -187,19 +187,19 @@
 		8E1D39EA42381AB8E774FFF0CDFF0B23 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		914F2BB39456F11CC1BA25D128EE6391 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		977A04C12ADF9E3B8E9F70E1D3916D94 /* PopUpTwoBtnAndAgreementView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpTwoBtnAndAgreementView.swift; path = HSongPopUpAssistant/V/PresetView/PopUpTwoBtnAndAgreementView.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B0BE07BE74383DDB181BF39DB478A5 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		97F0AEADB13DE3F09B9AC1A257811DFE /* PopUpUIConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpUIConfigure.swift; path = HSongPopUpAssistant/Main/PopUpUIConfigure.swift; sourceTree = "<group>"; };
 		99FDEDA648D05E1B8989AB1B3EF940AE /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00BDDD22FB05917EA2E6D9F2195B61A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		ACD80956DE131A3EBC1A1C108BB5C84E /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		AE572CDCACAFC8F82E28441B5DEAC8CC /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		B2F8644DE16D26A4977BF34761F92BCF /* HSongPopUpAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSongPopUpAssistant-umbrella.h"; sourceTree = "<group>"; };
 		B2FC41F9E941403EEA32DB4820E8F661 /* PopUpAssistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpAssistant.swift; path = HSongPopUpAssistant/Main/PopUpAssistant.swift; sourceTree = "<group>"; };
-		B302A9036C4A5D6FAAD376A2B1BF36CC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B302A9036C4A5D6FAAD376A2B1BF36CC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B434C04A903891F0996B2E0F9D57091D /* FrameStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameStore.swift; path = HSongPopUpAssistant/gif/Gifu/Sources/Gifu/Classes/FrameStore.swift; sourceTree = "<group>"; };
-		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SnapKit-SnapKit_Privacy"; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7C43CC14F653BBBCEF0583D38AA6A9 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = HSongPopUpAssistant/gif/Gifu/Sources/Gifu/Extensions/Array.swift; sourceTree = "<group>"; };
 		BCC9F43980384B6B2B3BDD3F1DF802D4 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
 		BD1D8AE2DC756B29EE4CA55AFEB334BC /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
@@ -382,7 +382,6 @@
 				753E9051D6792041EBA91A3C5A8EB576 /* Resources */,
 				4964DAD7340DF3638E9A065C10078160 /* Support Files */,
 			);
-			name = HSongPopUpAssistant;
 			path = HSongPopUpAssistant;
 			sourceTree = "<group>";
 		};
@@ -429,7 +428,6 @@
 				188724433062FE1634E218766DB7B036 /* Resources */,
 				7BEF2CB023E01922D58B1F989A221FB8 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -455,11 +453,11 @@
 		DAB8BDCD1087C9C1EED8F8375A492C4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D1CE947F1421B30623CDDA70B418FCE /* HSongPopUpAssistant */,
-				568DA05127BBAB9DD747591790BE2C3A /* HSongPopUpAssistant-ResMine */,
-				2DF40028AD2F289FEBF88453CC4DA937 /* Pods-HSongPopUpAssistantDemo */,
-				979486118B3E90C08386079D57962701 /* SnapKit */,
-				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */,
+				4D1CE947F1421B30623CDDA70B418FCE /* HSongPopUpAssistant.framework */,
+				568DA05127BBAB9DD747591790BE2C3A /* ResMine.bundle */,
+				2DF40028AD2F289FEBF88453CC4DA937 /* Pods_HSongPopUpAssistantDemo.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -519,7 +517,7 @@
 			);
 			name = "Pods-HSongPopUpAssistantDemo";
 			productName = Pods_HSongPopUpAssistantDemo;
-			productReference = 2DF40028AD2F289FEBF88453CC4DA937 /* Pods-HSongPopUpAssistantDemo */;
+			productReference = 2DF40028AD2F289FEBF88453CC4DA937 /* Pods_HSongPopUpAssistantDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
@@ -538,7 +536,7 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8A8DB685241263AFDF5E6B20FE67B93A /* SnapKit-SnapKit_Privacy */ = {
@@ -555,7 +553,7 @@
 			);
 			name = "SnapKit-SnapKit_Privacy";
 			productName = SnapKit_Privacy;
-			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit-SnapKit_Privacy */;
+			productReference = B9DCB5EC0B1CDADD221717CADDF62359 /* SnapKit_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		D0A753F9A62DBE9A54134412855DB099 /* HSongPopUpAssistant-ResMine */ = {
@@ -572,7 +570,7 @@
 			);
 			name = "HSongPopUpAssistant-ResMine";
 			productName = ResMine;
-			productReference = 568DA05127BBAB9DD747591790BE2C3A /* HSongPopUpAssistant-ResMine */;
+			productReference = 568DA05127BBAB9DD747591790BE2C3A /* ResMine.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		FE613463319A05523C44B83223D0528D /* HSongPopUpAssistant */ = {
@@ -592,7 +590,7 @@
 			);
 			name = HSongPopUpAssistant;
 			productName = HSongPopUpAssistant;
-			productReference = 4D1CE947F1421B30623CDDA70B418FCE /* HSongPopUpAssistant */;
+			productReference = 4D1CE947F1421B30623CDDA70B418FCE /* HSongPopUpAssistant.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -601,8 +599,9 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1610;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -613,8 +612,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = DAB8BDCD1087C9C1EED8F8375A492C4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -659,7 +656,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B6FAEF0CAEAF53EED4820FC0B3682F /* SnapKit-SnapKit_Privacy in Resources */,
+				C4B6FAEF0CAEAF53EED4820FC0B3682F /* SnapKit_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,7 +664,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C301FAF3FDA9E8EF849A820963224E28 /* HSongPopUpAssistant-ResMine in Resources */,
+				C301FAF3FDA9E8EF849A820963224E28 /* ResMine.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,15 +811,13 @@
 			baseConfigurationReference = F52C820EAD087DEBB549862004949B55 /* HSongPopUpAssistant.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/HSongPopUpAssistant/HSongPopUpAssistant-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
@@ -835,6 +830,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/HSongPopUpAssistant/HSongPopUpAssistant.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = HSongPopUpAssistant;
 				PRODUCT_NAME = HSongPopUpAssistant;
 				SDKROOT = iphoneos;
@@ -884,6 +880,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -907,7 +904,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -919,17 +915,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7484E10B98D50CE81DE1001A0908830F /* Pods-HSongPopUpAssistantDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -941,6 +934,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -994,15 +988,13 @@
 			baseConfigurationReference = 42410990DBC3E3868AC5C6648F8F8DCC /* HSongPopUpAssistant.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/HSongPopUpAssistant/HSongPopUpAssistant-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
@@ -1015,6 +1007,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/HSongPopUpAssistant/HSongPopUpAssistant.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = HSongPopUpAssistant;
 				PRODUCT_NAME = HSongPopUpAssistant;
 				SDKROOT = iphoneos;
@@ -1032,17 +1025,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7938D42003E5F1C4BD42BDFBC61EEDF /* Pods-HSongPopUpAssistantDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1054,6 +1044,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1072,15 +1063,13 @@
 			baseConfigurationReference = CEAAEE6AE582CF52D7D77977F3C0438E /* SnapKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
@@ -1093,6 +1082,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = SnapKit;
 				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
@@ -1111,15 +1101,13 @@
 			baseConfigurationReference = D6FF3DF55BECAE6A7EF8AB135E833EDF /* SnapKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
@@ -1132,6 +1120,7 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_MODULE_NAME = SnapKit;
 				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
@@ -1198,6 +1187,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1217,7 +1207,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;

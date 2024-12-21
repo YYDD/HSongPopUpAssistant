@@ -6,14 +6,24 @@
 //
 
 import UIKit
+@_exported import HSongPopUpAssistant
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+//        let rootVC = ViewController()
+//        let navVC = UINavigationController(rootViewController: rootVC)
+////        navVC.viewControllers = cons
+////        navVC.navigationController?.pushViewController(cons.last!, animated: true)
+//
+//        self.window?.rootViewController = navVC
+//
+//        self.window?.makeKeyAndVisible()
         return true
     }
 

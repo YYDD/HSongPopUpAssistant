@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		96A33139DE69E535683E4464 /* Pods_HSongPopUpAssistantDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF86B2F1E5B110FA8FCA9B4 /* Pods_HSongPopUpAssistantDemo.framework */; };
+		9ABE8E8A2D15A8390044D3C9 /* CustomCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE8E892D15A8390044D3C9 /* CustomCenterView.swift */; };
 		9B3A39F52BD63D2700043A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39F42BD63D2700043A7F /* AppDelegate.swift */; };
 		9B3A39F72BD63D2700043A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39F62BD63D2700043A7F /* SceneDelegate.swift */; };
 		9B3A39F92BD63D2700043A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3A39F82BD63D2700043A7F /* ViewController.swift */; };
-		9B3A39FC2BD63D2700043A7F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39FB2BD63D2700043A7F /* Base */; };
 		9B3A39FE2BD63D2A00043A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A39FD2BD63D2A00043A7F /* Assets.xcassets */; };
 		9B3A3A012BD63D2A00043A7F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9B3A3A002BD63D2A00043A7F /* Base */; };
 /* End PBXBuildFile section */
@@ -20,11 +20,11 @@
 		2CF86B2F1E5B110FA8FCA9B4 /* Pods_HSongPopUpAssistantDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongPopUpAssistantDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A6BEF716F816E336F6C4E2 /* Pods-HSongPopUpAssistantDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistantDemo.release.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8012CCB061A6273A2C1EA311 /* Pods-HSongPopUpAssistantDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongPopUpAssistantDemo.debug.xcconfig"; path = "Target Support Files/Pods-HSongPopUpAssistantDemo/Pods-HSongPopUpAssistantDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABE8E892D15A8390044D3C9 /* CustomCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCenterView.swift; sourceTree = "<group>"; };
 		9B3A39F12BD63D2700043A7F /* HSongPopUpAssistantDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSongPopUpAssistantDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A39F42BD63D2700043A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B3A39F62BD63D2700043A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B3A39F82BD63D2700043A7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B3A39FB2BD63D2700043A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B3A39FD2BD63D2A00043A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B3A3A002BD63D2A00043A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B3A3A022BD63D2A00043A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 				9B3A39F42BD63D2700043A7F /* AppDelegate.swift */,
 				9B3A39F62BD63D2700043A7F /* SceneDelegate.swift */,
 				9B3A39F82BD63D2700043A7F /* ViewController.swift */,
-				9B3A39FA2BD63D2700043A7F /* Main.storyboard */,
+				9ABE8E892D15A8390044D3C9 /* CustomCenterView.swift */,
 				9B3A39FD2BD63D2A00043A7F /* Assets.xcassets */,
 				9B3A39FF2BD63D2A00043A7F /* LaunchScreen.storyboard */,
 				9B3A3A022BD63D2A00043A7F /* Info.plist */,
@@ -88,7 +88,6 @@
 				8012CCB061A6273A2C1EA311 /* Pods-HSongPopUpAssistantDemo.debug.xcconfig */,
 				55A6BEF716F816E336F6C4E2 /* Pods-HSongPopUpAssistantDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -122,7 +121,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					9B3A39F02BD63D2700043A7F = {
 						CreatedOnToolsVersion = 15.3;
@@ -154,7 +153,6 @@
 			files = (
 				9B3A39FE2BD63D2A00043A7F /* Assets.xcassets in Resources */,
 				9B3A3A012BD63D2A00043A7F /* Base in Resources */,
-				9B3A39FC2BD63D2700043A7F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABE8E8A2D15A8390044D3C9 /* CustomCenterView.swift in Sources */,
 				9B3A39F92BD63D2700043A7F /* ViewController.swift in Sources */,
 				9B3A39F52BD63D2700043A7F /* AppDelegate.swift in Sources */,
 				9B3A39F72BD63D2700043A7F /* SceneDelegate.swift in Sources */,
@@ -216,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B3A39FA2BD63D2700043A7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B3A39FB2BD63D2700043A7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9B3A39FF2BD63D2A00043A7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,11 +354,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VD44955XC4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HSongPopUpAssistantDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,11 +383,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VD44955XC4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HSongPopUpAssistantDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
