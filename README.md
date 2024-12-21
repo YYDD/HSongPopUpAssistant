@@ -5,64 +5,72 @@
     <a href="https://github.com/Thered-key/HSongSlideTabView/blob/main/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
-## HSongPopUpAssistant is a toast assitant, is a pop-up window assistant, you can pop any your custom view or reset view.
-##### If this is your cup of tea, please give me a little star.
+##### HSongPopUpAssistant is a toast assitant, is a pop-up window assistant, you can pop any your custom view or reset view.If this is your cup of tea, please give me a little star.
 ### 1.Sample
 <br />
 <div>
-<img src="/ReadMeImgs/111.gif" width = "250" height = "541" alt="" align=center />
-<img src="/ReadMeImgs/222.gif" width = "250" height = "541" alt="" align=center />
+    <img src="/ReadMeImgs/111.gif" width = "250" height = "541" alt="" align=center />
+    <img src="/ReadMeImgs/22.gif" width = "250" height = "541" alt="" align=center />
+    <img src="/ReadMeImgs/33.gif" width = "250" height = "541" alt="" align=center />
+    <img src="/ReadMeImgs/444.gif" width = "250" height = "541" alt="" align=center />
+    <img src="/ReadMeImgs/555.gif" width = "250" height = "541" alt="" align=center />
 <div />
 
-### 2.使用
+### 2.Install
   
-#### ①首先引入HSongSlideTabView
-  ```swift
-    import HSongSlideTabView
-  ```
-#### ②定义TabView样式，并使用，非常简便
-##### 无图标（如1中左图）
-  ```swift
-    struct ContentView: View {
-        let manager: Manager = Manager(leftTitle: "你好", rightTitle: "欢迎")
-        var body: some View {
-            HSongSlideTabView(manager: manager) {
-                AView()
-                BView()
-            }
-        }
-    }
-  ```
- ##### 有图标（如1中右图）
-  ```swift
-    struct ContentView: View {
-        let manager: Manager = Manager(leftImg: "dianpu", leftSelectedImg: "dianpu-sed",leftTitle: "你好", rightImg: "yinliao", rightSelectedImg: "yinliao-sed",rightTitle: "欢迎")
-        var body: some View {
-            HSongSlideTabView(manager: manager) {
-                AView()
-                BView()
-            }
-        }
-    }
-  ```
-  
-  ### 3.安装
-  
-  #### 支持通过cocoapods安装
-  
-  ##### 在你的项目中的Podfile添加`pod HSongSlideTabView`即可
+#### CocoaPods
+  - Add the following to your Podfile: ``` pod 'HSongPopUpAssistant' ```
+  - And ``` pod install ``` in your Terminal
+### 3.Use
+  - just ``` import HSongPopUpAssistant ```
+  - And
+    ```
+    // pop reset toast
+    PopUpAssistant.shared.showToast(.success, mainTitle: "提交成功", subTitle: "提交是真的成功了")
+    // pop your custom view
+    let centerView = CustomCenterView(frame: CGRect(x: 0, y: 0, width: 300, height: 230))
+    centerView.layer.cornerRadius = 15
+    PopUpAssistant.shared.showCustomView(centerView, position: .center, useCover: true)
     
-  #### 直接下载示例
-        
-  ##### 将示例中的`HSongSlideTabView`文件夹导入到自己的项目即可
-  
+    ```
+- For reset toast, you can set the configure what you like
+```
+public struct PopUpConfigure {
+    
+    /// 主背景色
+    var mainBgColor = UIColor.white
+    
+    /// 主标题颜色
+    var mainTitColor = UIColor("333333")
+    
+    /// 副标题颜色
+    var subTitColor = UIColor("666666")
+    
+    /// 主图标
+    var mainIconName = "app_success_circle"
+    
+    /// 主标题
+    var mainTitle = "加载成功"
+    
+    /// 副标题
+    var subTitle = "副标题这里是"
+    
+    /// 弹窗类型
+    var toastType = PopUpToastType.success
+    
+    /// 需要震动效果
+    var haveVibration = false
+    
+}
+
+```
   ### 4.Author
 
   Thered-key
 
   ### 5.License
 
-  `HSongSlideTabView` is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+  `HSongPopUpAssistant` is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
   ---
   
