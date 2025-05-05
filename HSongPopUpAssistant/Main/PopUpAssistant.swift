@@ -14,9 +14,11 @@ public class PopUpAssistant: NSObject {
     
     public static let shared = PopUpAssistant()
     
+     
     var mainBgColor = UIColor.white
     var topSpacing = UIConfigure.SizeScale * 0
     var bottomSpacing = UIConfigure.SizeScale * 0
+    var tempCustomView : PopUpCustomView?
     
     /// 自定义弹窗
     /// - Parameters:
@@ -27,6 +29,11 @@ public class PopUpAssistant: NSObject {
         let cview = PopUpCustomView()
         cview.topPadding = UIConfigure.KStatusBarHeight
         cview.alert(customView: customView, position: position, useCover: useCover, touchCoverHidden: touchCoverHidden, tapSelfRemove: tapSelfRemove)
+        tempCustomView = cview
+    }
+    
+    public func dismiss(){
+        tempCustomView?.removeSelf()
     }
     
     /// 自定义通知
